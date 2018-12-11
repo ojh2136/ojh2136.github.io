@@ -60,7 +60,6 @@ body, html {
 }
 
 body {
-  font: 100% / 1.5 Arial;
   background: black;
 
 }
@@ -74,11 +73,19 @@ a {
 }
 p {
   font-weight: bold;
+  font-size: 20px;
+  padding: 15px;
 }
-.parallax {
+h1 {
   font-size: 200%;
+  padding: 15px;
 }
-
+h2, h3 {
+  padding: 15px;
+}
+img {
+  padding: 15px;
+}
  /* centre the content in the parallax layers */
 .title {
   text-align: center;
@@ -87,14 +94,19 @@ p {
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  font-family: "Typo_Papyrus";
+  font-family: "San Francisco";
   color: white;
 }
 .title a {
   text-align: center;
   font-weight: bolder;
+  font-size: 150%;
 }
 
+
+a:hover {
+  color: #7ba9d6;
+}
 
 
 /* style the groups
@@ -115,15 +127,18 @@ p {
   z-index: 3; /* slide under groups 1 and 3 */
 }
 #group2 .parallax__layer--back {
-  background: black;
-  font-size: 50px;
+  background-color: #000000;
+  background-image: linear-gradient(315deg, #000000 0%, #7f8c8d 74%);
+  font-size: 30px;
 }
 
 #group3 {
   z-index: 4; /* slide over group 2 and 4 */
 }
 #group3 .parallax__layer--base {
-  background-image: url('https://wolfiscoming.files.wordpress.com/2017/10/www.jpg?w=900');
+  /* background-image: url('https://wolfiscoming.files.wordpress.com/2017/10/www.jpg?w=900'); */
+  background-color: #485461;
+  background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -132,22 +147,25 @@ p {
   z-index: 2; /* slide under group 3 and 5 */
 }
 #group4 .parallax__layer--deep {
-  background: #696969;
-}
+background-color: #000000;
+background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
 
+}
 #group5 {
   z-index: 3; /* slide over group 4 and 6 */
 }
 #group5 .parallax__layer--base {
-  background: #C0C0C0;
-}
+  background-color: #ffa69e;
+  background-image: linear-gradient(315deg, #ffa69e 0%, #5d4954 74%);}
+
 
 #group6 {
   z-index: 2; /* slide under group 5 and 7 */
 }
 #group6 .parallax__layer--back {
-  background: rgb(245,235,100);
-}
+
+  background-color: #000000;
+  background-image: linear-gradient(315deg, #000000 0%, #958e69 74%);}
 
 #group7 {
   z-index: 3; /* slide over group 7 */
