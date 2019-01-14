@@ -2,7 +2,7 @@ var decodeString = "____-------__//||\\!@#$$%#^&&*()_+";
 class Decoder {
   constructor (el) {
     this.el = el;
-    this.words = ["Juhyun Oh.","Front-End Developer.","Aspiring.","UW Bothell","Interactive Media Design"];
+    this.words = ["Juhyun Oh.","Front-End Developer.","Aspiring.","Interactive Media Design"];
     this.index = 0;
     this.startStr=this.words[this.index];
     this.encodedStr="";
@@ -78,7 +78,7 @@ class Decoder {
 
       }
 
-    }, 150);
+    }, 75);
 
   }
 }

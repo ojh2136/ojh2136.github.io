@@ -76,7 +76,7 @@ a {
 p {
   font-weight: bold;
   font-size: 20px;
-  padding: 15px;
+  padding: 5px;
 }
 h1 {
   font-size: 200%;
@@ -86,7 +86,6 @@ h2, h3 {
   padding: 15px;
 }
 img {
-  padding: 15px;
 }
  /* centre the content in the parallax layers */
 .title {
