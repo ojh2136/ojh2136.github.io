@@ -214,10 +214,10 @@ a:hover {
 #group2 {
   z-index: 3; /* slide under groups 1 and 3 */
 }
-#group2 .parallax__layer--back {
+#group2 .parallax__layer--fore {
   background-color: #000000;
   background-image: linear-gradient(315deg, #000000 0%, #7f8c8d 74%);
-  font-size: 30px;
+  font-size: 40px;
 }
 
 #group3 {
