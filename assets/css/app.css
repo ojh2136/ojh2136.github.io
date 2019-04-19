@@ -1,11 +1,4 @@
-/*------------------------------------------------
-*
-* Template name: Mono
-* Version      : 4.7.3
-* Author       : FlaTheme
-* Author URL   : http://themeforest.net/user/flatheme
-*
--------------------------------------------------*/
+
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Heebo:100,300,400,500,700,800,900");
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900");
@@ -602,22 +595,10 @@ button {
   padding: 0;
   cursor: pointer;
 }
-<<<<<<< HEAD
 #header {
  font-size: 60px;
 }
 
-=======
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-#header {
-  font-size: 60px;
-}
->>>>>>> 82529bb4c37b3fa3ef8f48a06f968ac6b0fb0234
 a:focus, a:active, button:focus, button:active {
   outline: 0;
   box-shadow: none;
