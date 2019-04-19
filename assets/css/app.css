@@ -602,6 +602,9 @@ button {
   padding: 0;
   cursor: pointer;
 }
+#header {
+ font-size: 60px;
+}
 
 a:focus, a:active, button:focus, button:active {
   outline: 0;
